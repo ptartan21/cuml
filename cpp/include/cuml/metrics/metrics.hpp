@@ -82,7 +82,7 @@ double rand_index(const raft::handle_t &handle, double *y, double *y_hat,
 * @param y: Array of response variables of ground truth classifications
 * @param y_hat: Array of response variables of the predicted classifications
 * @param n: Number of elements in y and y_hat
-* @return: The rand index value
+* @return: The precision score
 */
 double precision_score(const raft::handle_t &handle, const int *y, const int *y_hat, 
                        const int n);

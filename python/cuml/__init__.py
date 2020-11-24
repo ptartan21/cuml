@@ -47,6 +47,7 @@ from cuml.linear_model.ridge import Ridge
 from cuml.manifold.t_sne import TSNE
 from cuml.manifold.umap import UMAP
 from cuml.metrics.accuracy import accuracy_score
+from cuml.metrics.precision_score import cython_precision_score as precision_score
 from cuml.metrics.cluster.adjusted_rand_index import adjusted_rand_score
 from cuml.metrics.regression import r2_score
 
