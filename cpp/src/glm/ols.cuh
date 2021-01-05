@@ -100,7 +100,7 @@ void olsFit(const raft::handle_t &handle, math_t *input, int n_rows, int n_cols,
 
 /**
  * @brief to make predictions with a fitted ordinary least squares and ridge regression model
- * @param handle        cuml ahndle
+ * @param handle        cuml handle
  * @param input         device pointer to feature matrix n_rows x n_cols
  * @param n_rows        number of rows of the feature matrix
  * @param n_cols        number of columns of the feature matrix
